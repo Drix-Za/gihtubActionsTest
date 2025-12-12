@@ -1,0 +1,8 @@
+on: [push]
+
+jobs:
+  hola:
+    runs-on: ubuntu-latest
+    steps:
+      - name: hola Informatica
+        runs: echo "Hola despliegue automatico"
