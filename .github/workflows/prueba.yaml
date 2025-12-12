@@ -4,4 +4,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: hola Informatica
-        runs: echo "Hola despliegue automatico"
+        run: echo "Hola despliegue automatico"
